@@ -3,7 +3,7 @@ str = "Hello there, how are you?"
 def reverse_each_word(string)
   string.split('/ /')
   
-  string.collection do |word|
+  string.collect do |word|
     word.reverse
   end
 end
