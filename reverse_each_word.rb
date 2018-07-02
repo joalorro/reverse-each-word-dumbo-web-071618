@@ -1,3 +1,7 @@
+str = "Hello there, how are you?"
+
 def reverse_each_word(string)
-  string.to_a 
+  string.split('/ /')
 end
+
+puts reverse_each_word(str)
